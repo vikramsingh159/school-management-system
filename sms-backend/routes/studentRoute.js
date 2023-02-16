@@ -77,7 +77,7 @@ router.delete("/:studentId", async (req, res) => {
     if (!student) {
       res.status(404).send({ msg: `Student with id ${id} not found` });
     }
-    res.status(200).send(`tudent with id ${id} deleted`);
+    res.status(200).send(`Student with id ${id} deleted`);
   } catch (error) {
     console.log(error);
     res.status(400).send({ error: "Something went wrong, unable to Delete." });

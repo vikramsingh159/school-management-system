@@ -23,6 +23,7 @@ app.get("/", (req, res) => {
     res.send("Homepage")
 })
 
+// Routes
 app.use("/admin", adminRouter);
 app.use('/teachers', teacherRouter);
 app.use('/students', studentRouter);
@@ -32,11 +33,7 @@ app.use('/notices', noticeRouter)
 app.use('/schools', schoolRouter)
 app.use('/quiz', quizRouter)
 
-
-
-
-
-
+// Data base connection
 
 app.listen(process.env.port, async () => {
     try {
