@@ -52,9 +52,9 @@ const CheckReports = () => {
                   </tr>
                 </thead>
                 <tbody>
-                  {AllAppointment?.map((ele) => {
+                  {AllAppointment?.map((ele, index) => {
                     return (
-                      <tr>
+                      <tr key={index}>
                         <td>{ele.name}</td>
                         <td>{ele.class}</td>
                         <td>{ele.email}</td>

@@ -210,7 +210,7 @@ const StudentProfile = () => {
                 </div>
                 <div className="singleitemdiv">
                   <FaRegHospital className="singledivicons" />
-                  <p>Shining Star Public School, CBSE</p>
+                  <p>SMS</p>
                 </div>
                 <div className="singleitemdiv">
                   <FaMapMarkedAlt className="singledivicons" />

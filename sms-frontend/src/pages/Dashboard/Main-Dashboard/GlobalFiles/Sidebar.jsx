@@ -205,8 +205,8 @@ const Sidebar = () => {
             ) : null}
 
             {user?.userType === "teacher" || user?.userType === "student" ? (
-              <a
-                href="https://sms-quiz.netlify.app/"
+              <Link
+                to="http://localhost:5000"
                 target="_blank"
                 className="link"
                 activeclassname="active" rel="noreferrer"
@@ -220,12 +220,12 @@ const Sidebar = () => {
                 >
                   Quiz
                 </div>
-              </a>
+              </Link>
             ) : null}
 
             {user?.userType === "teacher" || user?.userType === "student" ? (
-              <a
-                href="https://sunny-duckanoo-9006ed.netlify.app/"
+              <Link
+                to="http://localhost:5000"
                 target="_blank"
                 className="link"
                 activeclassname="active" rel="noreferrer"
@@ -239,7 +239,7 @@ const Sidebar = () => {
                 >
                   Video Call
                 </div>
-              </a>
+              </Link>
             ) : null}
 
             {user?.userType === "teacher" ? (

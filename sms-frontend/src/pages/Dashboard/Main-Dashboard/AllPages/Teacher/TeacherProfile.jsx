@@ -212,12 +212,12 @@ const TeacherProfile = () => {
                 </div>
                 <div className="singleitemdiv">
                   <FaRegHospital className="singledivicons" />
-                  <p>Shining Star Public School, CBSE</p>
+                  <p>SMS</p>
                 </div>
                 <div className="singleitemdiv">
                   <FaMapMarkedAlt className="singledivicons" />
                   <p>
-                    Shining Star Public School PACHPEDI  Bhuigawo Rahod
+                    SMS
                   </p>
                 </div>
               </div>

@@ -49,7 +49,6 @@ const FrontPage = () => {
             <FaChalkboardTeacher className="overviewIcon" />
           </div>
           <div className="two commondiv">
-            {" "}
             <div>
               <h1>{data?.student}</h1>
               <p>Students</p>
@@ -64,7 +63,6 @@ const FrontPage = () => {
             <RiEmpathizeLine className="overviewIcon" />
           </div>
           <div className="six commondiv">
-            {" "}
             <div>
               <h1>{data?.admin}</h1>
               <p>Admins</p>
@@ -72,7 +70,6 @@ const FrontPage = () => {
             <RiAdminLine className="overviewIcon" />
           </div>
           <div className="four commondiv">
-            {" "}
             <div>
               <h1>25</h1>
               <p>Class rooms</p>
@@ -81,7 +78,6 @@ const FrontPage = () => {
           </div>
 
           <div className="five commondiv">
-            {" "}
             <div>
               <h1>10</h1>
               <p>School bus</p>
@@ -89,7 +85,6 @@ const FrontPage = () => {
             <BiBus className="overviewIcon" />
           </div>
           <div className="six commondiv">
-            {" "}
             <div>
               <h1>{data?.notice}</h1>
               <p>Notices</p>
@@ -97,7 +92,6 @@ const FrontPage = () => {
             <BiNotepad className="overviewIcon" />
           </div>
           <div className="six commondiv">
-            {" "}
             <div>
               <h1>{data?.report}</h1>
               <p>Reports</p>
@@ -109,7 +103,7 @@ const FrontPage = () => {
         <div className="patientDetails">
           <h1>School notices</h1>
           <div className="patientBox">
-            {notices ? <Table columns={columns} dataSource={notices} /> : null}
+            {notices ? <Table columns={columns} key={notices.key} dataSource={notices} /> : null}
           </div>
         </div>
       </div>
