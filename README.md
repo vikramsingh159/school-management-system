@@ -1,26 +1,3 @@
-
-## To Run Locally
-
-
-Go to the project directory
-
-```bash
-  cd sms-main
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run start
-```
-
-
 # School Management System
 
 School management system is  a software to control all the management related to a school online, like asking doubts to teacher , one to one video call session 
