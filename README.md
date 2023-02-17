@@ -26,7 +26,6 @@ with teacher, adding school notices , making reports of students , attending qui
 ## Features
 
 - Proper Authentication
-- Proper Authentication
 - Admin Controls
 - CRUD Operations
 - Add reports
